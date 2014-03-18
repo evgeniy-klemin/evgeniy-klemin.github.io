@@ -136,6 +136,8 @@ table {
 	font-family: 'pf_din_text_cond_pro_mediumRg';
 	font-size: 19px;
 	color: #fff;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
 }
 .bold_text {
 	color: #004993;
