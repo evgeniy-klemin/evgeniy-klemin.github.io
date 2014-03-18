@@ -145,8 +145,32 @@ table {
 
 p {
 	margin-bottom: 10px;
+}
+
+
+@media (min-width: 600px) and (max-width: 767px) {
+	.container {
+		width: 350px;
 	}
-	
+	.logo {
+		margin-top: 14px;
+	}
+	.welcome {
+		margin-top: 18px;
+	}
+	.contract {
+		height: 90px;
+		margin: 12px auto 0 auto;
+		width: 350px;
+	}
+	.contract_wrap {
+		height: 84px;
+	}
+	.confirm {
+		width: 350px;
+	}
+}
+
 @media (min-width: 768px) {
 	.container {
 		width: 600px;
@@ -164,23 +188,12 @@ p {
 	}
 	
 	.confirm {
-		width: 400px;
+		width: 450px;
 		font-size: 16px;
 	}	
 
 }
-@media (min-width: 500px) {
-	.welcome {
-		margin-top: 20px;
-	}
-	.contract {
-		height: 90px;
-		margin: 14px auto 0 auto;
-	}		
-	.contract_wrap {
-		height: 84px;
-	}
-}
+
 
 .form input.valid-btn {
 	background: #28a060;
