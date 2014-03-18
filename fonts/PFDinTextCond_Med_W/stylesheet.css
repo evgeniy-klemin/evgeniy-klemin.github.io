@@ -1,0 +1,24 @@
+/* Parachute Webfont kit build for IKEA/Russsia Sept 27, 2012
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * URL: http://www.parachute.gr
+ * Copyright: Copyright (c) 2012 Parachute. All rights reserved.
+ * Licensed pageviews/month: 5 millions
+ * 
+*/
+
+
+@font-face {
+    font-family: 'pf_din_text_cond_pro_mediumRg';
+    src: url('pfdintextcondpro-medium-web.eot');
+    src: url('pfdintextcondpro-medium-web.eot?#iefix') format('embedded-opentype'),
+         url('pfdintextcondpro-medium-web.woff') format('woff'),
+         url('pfdintextcondpro-medium-web.ttf') format('truetype'),
+         url('pfdintextcondpro-medium-web.svg#pf_din_text_cond_pro_mediumRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

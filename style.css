@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'pf_din_text_cond_pro_mediumRg';
+    src: url('fonts/PFDinTextCond_Med_W/pfdintextcondpro-medium-web.eot');
+    src: url('fonts/PFDinTextCond_Med_W/pfdintextcondpro-medium-web.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PFDinTextCond_Med_W/pfdintextcondpro-medium-web.woff') format('woff'),
+         url('fonts/PFDinTextCond_Med_W/pfdintextcondpro-medium-web.ttf') format('truetype'),
+         url('fonts/PFDinTextCond_Med_W/pfdintextcondpro-medium-web.svg#pf_din_text_cond_pro_mediumRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_din_text_cond_proregular';
+    src: url('fonts/PFDinTextCond_Reg_W/pfdintextcondpro-regular-web.eot');
+    src: url('fonts/PFDinTextCond_Reg_W/pfdintextcondpro-regular-web.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PFDinTextCond_Reg_W/pfdintextcondpro-regular-web.woff') format('woff'),
+         url('fonts/PFDinTextCond_Reg_W/pfdintextcondpro-regular-web.ttf') format('truetype'),
+         url('fonts/PFDinTextCond_Reg_W/pfdintextcondpro-regular-web.svg#pf_din_text_cond_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+	width: 280px;
+	margin: 0 auto;
+	text-align: center;
+}
+.logo {
+	margin-top: 20px;
+}
+.welcome {
+	font-family: 'pf_din_text_cond_pro_mediumRg';
+	font-size: 27px;
+	margin-top: 30px;
+}
+.contract {
+	border: 2px solid #666;
+	height: 100px;
+	width: 260px;
+	margin: 20px auto 0 auto;
+	border-radius: 3px;
+}
+.contract_wrap {
+	overflow-x: scroll; 
+	overflow-y: inherit; 
+	overflow: -moz-scrollbars-vertical;
+	margin: 2px;
+	height: 96px;
+	font-size: 12px;
+	text-align: left;
+	font-family: 'pf_din_text_cond_proregular';
+	-webkit-overflow-scrolling: touch;
+}
+.contract_wrap::-webkit-scrollbar { width: 5px; height: 5px; }
+.contract_wrap::-webkit-scrollbar-thumb { width: 5px; background: #525252; border-radius: 3px; }
+.contract_wrap::-webkit-scrollbar-track-piece { background: none; }
+
+.confirm {
+	width: 280px;
+	text-align:left;
+	margin: 15px auto 0 auto;
+	font-family: 'pf_din_text_cond_proregular';
+	font-size: 14px;
+}
+.confirm input {
+	float: left;
+	margin-top:0;
+	}
+.confirm label {
+	margin-left: 26px;
+	display: block;
+}
+.confirm input[type=checkbox] {
+	width: 18px;
+	height: 18px;
+}
+.form {
+	margin-top: 10px;
+}
+.form input[type=submit] {
+	background: #acacac;
+	border-radius: 3px;
+	border: 0;
+	border-bottom: 2px solid #6a6b6c;
+	width: 132px;
+	height: 44px;
+	font-family: 'pf_din_text_cond_pro_mediumRg';
+	font-size: 19px;
+	color: #fff;
+}
+.bold_text {
+	color: #004993;
+	font-weight: bold;
+}
+
+p {
+	margin-bottom: 10px;
+	}
+	
+@media (min-width: 768px) {
+	.container {
+		width: 600px;
+	}
+	.contract {
+		width: 600px;
+		height: 200px;
+	}		
+	.contract_wrap {
+		height: 196px;
+		font-size: 14px;
+	}
+	.welcome {
+		font-size: 32px;
+	}
+	
+	.confirm {
+		width: 400px;
+		font-size: 16px;
+	}	
+
+}
+
+.form input.valid-btn {
+	background: #28a060;
+	border-bottom: 2px solid #1b6c41;
+}
