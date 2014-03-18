@@ -131,11 +131,10 @@ table {
 	border-radius: 3px;
 	border: 0;
 	border-bottom: 2px solid #6a6b6c;
-	width: 132px;
-	height: 44px;
 	font-family: 'pf_din_text_cond_pro_mediumRg';
 	font-size: 19px;
 	color: #fff;
+	padding: 9px 12px;
 	-webkit-appearance: none;
 	-webkit-border-radius: 3px;
 }
@@ -169,6 +168,18 @@ p {
 		font-size: 16px;
 	}	
 
+}
+@media (min-width: 500px) {
+	.welcome {
+		margin-top: 20px;
+	}
+	.contract {
+		height: 90px;
+		margin: 14px auto 0 auto;
+	}		
+	.contract_wrap {
+		height: 84px;
+	}
 }
 
 .form input.valid-btn {
