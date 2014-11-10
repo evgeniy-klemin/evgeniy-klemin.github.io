@@ -1,0 +1,330 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@-moz-keyframes animatedBackground {
+  from {
+    background-position: center -1200px;
+  }
+  to {
+    background-position: center 45px;
+  }
+}
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: center -1200px;
+  }
+  to {
+    background-position: center 45px;
+  }
+}
+@keyframes animatedBackground {
+  from {
+    background-position: center -1200px;
+  }
+  to {
+    background-position: center 45px;
+  }
+}
+@-moz-keyframes animatedLogo {
+  from {
+    top: -1200px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-webkit-keyframes animatedLogo {
+  from {
+    top: -1200px;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes animatedLogo {
+  from {
+    top: -1200px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-moz-keyframes animatedShopTop {
+  from {
+    left: 1200px;
+  }
+  to {
+    left: 0;
+  }
+}
+@-webkit-keyframes animatedShopTop {
+  from {
+    left: 1200px;
+  }
+  to {
+    left: 0;
+  }
+}
+@keyframes animatedShopTop {
+  from {
+    left: 1200px;
+  }
+  to {
+    left: 0;
+  }
+}
+@-moz-keyframes animatedTopForm {
+  from {
+    -moz-transform: scale(0, 0);
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes animatedTopForm {
+  from {
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+@keyframes animatedTopForm {
+  from {
+    -moz-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+/* line 39, ../sass/screen.sass */
+.top {
+  background: url("../img/top_bg_big.jpg") no-repeat center 45px;
+  -moz-animation: animatedBackground 0.3s ease-out 1;
+  -webkit-animation: animatedBackground 0.3s ease-out 1;
+  animation: animatedBackground 0.3s ease-out 1;
+  height: 590px;
+  overflow: hidden;
+}
+/* line 44, ../sass/screen.sass */
+.top__menu {
+  height: 45px;
+  background: #000;
+  z-index: 100;
+  position: relative;
+}
+
+/* line 50, ../sass/screen.sass */
+.content-wrap {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 56, ../sass/screen.sass */
+.logo {
+  position: absolute;
+  width: 377px;
+  height: 260px;
+  top: 0;
+  left: 0;
+  background: url("../img/logo_bg.png") no-repeat;
+  -moz-animation: animatedLogo 0.4s ease-out 1;
+  -webkit-animation: animatedLogo 0.4s ease-out 1;
+  animation: animatedLogo 0.4s ease-out 1;
+}
+/* line 64, ../sass/screen.sass */
+.logo__wrap {
+  background: url("../img/logo.png") no-repeat;
+  text-indent: -9999px;
+  position: relative;
+  top: 30px;
+  width: 200px;
+  height: 85px;
+  margin: 0 auto;
+}
+/* line 72, ../sass/screen.sass */
+.logo__slogan {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+/* line 82, ../sass/screen.sass */
+.shops-small {
+  font-family: "Roboto";
+  top: 315px;
+  position: absolute;
+  right: 0;
+  width: 330px;
+  color: #fff;
+  text-align: right;
+}
+/* line 90, ../sass/screen.sass */
+.shops-small__title {
+  display: block;
+  font-size: 18px;
+  padding-bottom: 3px;
+  padding-top: 5px;
+  margin-right: 50px;
+}
+/* line 96, ../sass/screen.sass */
+.shops-small__phone {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 50px;
+  padding-left: 30px;
+}
+/* line 102, ../sass/screen.sass */
+.shops-small li {
+  position: relative;
+  margin-bottom: 10px;
+  background: #d83120;
+  border-radius: 32px;
+  height: 64px;
+  padding: 0 11px;
+  -moz-box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.12);
+  box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.12);
+}
+/* line 110, ../sass/screen.sass */
+.shops-small li i {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #bcbbbb;
+  float: right;
+  margin-top: 11px;
+}
+/* line 117, ../sass/screen.sass */
+.shops-small li.first {
+  -moz-animation: animatedShopTop 0.4s ease-out 1;
+  -webkit-animation: animatedShopTop 0.4s ease-out 1;
+  animation: animatedShopTop 0.4s ease-out 1;
+}
+/* line 119, ../sass/screen.sass */
+.shops-small li.second {
+  -moz-animation: animatedShopTop 0.5s ease-out 1;
+  -webkit-animation: animatedShopTop 0.5s ease-out 1;
+  animation: animatedShopTop 0.5s ease-out 1;
+}
+
+/* line 121, ../sass/screen.sass */
+.form-top {
+  border-radius: 50%;
+  background-image: -moz-linear-gradient(127deg, #ccc 0%, white 100%);
+  background-image: -webkit-linear-gradient(127deg, #ccc 0%, white 100%);
+  background-image: -ms-linear-gradient(127deg, #ccc 0%, white 100%);
+  box-shadow: 2.5px 4.33px 13px 0px rgba(0, 0, 0, 0.157);
+  position: relative;
+  float: right;
+  top: -60px;
+  z-index: 200;
+  width: 351px;
+  height: 351px;
+  -moz-animation: animatedTopForm 0.4s ease-out 1;
+  -webkit-animation: animatedTopForm 0.4s ease-out 1;
+  animation: animatedTopForm 0.4s ease-out 1;
+}
+/* line 134, ../sass/screen.sass */
+.form-top__wrap {
+  border-radius: 50%;
+  background-image: -moz-linear-gradient(127deg, #ddd 0%, white 100%);
+  background-image: -webkit-linear-gradient(127deg, #ddd 0%, white 100%);
+  background-image: -ms-linear-gradient(127deg, #ddd 0%, white 100%);
+  box-shadow: 2.5px 4.33px 13px 0px rgba(0, 0, 0, 0.157);
+  width: 337px;
+  height: 337px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+/*# sourceMappingURL=screen.css.map */
