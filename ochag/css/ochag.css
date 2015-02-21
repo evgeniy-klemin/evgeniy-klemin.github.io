@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'ochag';
+  src: url('../font/ochag.eot?4524237');
+  src: url('../font/ochag.eot?4524237#iefix') format('embedded-opentype'),
+       url('../font/ochag.woff?4524237') format('woff'),
+       url('../font/ochag.ttf?4524237') format('truetype'),
+       url('../font/ochag.svg?4524237#ochag') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'ochag';
+    src: url('../font/ochag.svg?4524237#ochag') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-ochag-"]:before, [class*=" icon-ochag-"]:before {
+  font-family: "ochag";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0;
+ 
+  /* you can be more comfortable with increased icons size */
+  /*font-size: 650%;*/
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-ochag-why5:before { content: '\e800'; } /* '' */
+.icon-ochag-why4:before { content: '\e801'; } /* '' */
+.icon-ochag-why3:before { content: '\e802'; } /* '' */
+.icon-ochag-why2:before { content: '\e803'; } /* '' */
+.icon-ochag-why6:before { content: '\e804'; } /* '' */
+.icon-ochag-why1:before { content: '\e805'; } /* '' */
+
+[class^="icon-ochag-why1"]:before, [class*=" icon-ochag-why1"]:before {
+  font-size: 700%;
+  margin-left: 0.03em;
+  line-height: 1.05;
+}
+[class^="icon-ochag-why2"]:before, [class*=" icon-ochag-why2"]:before {
+  font-size: 450%;
+  margin-left: 0.2em;
+  line-height: 1.65;
+}
+[class^="icon-ochag-why3"]:before, [class*=" icon-ochag-why3"]:before {
+  font-size: 480%;
+  margin-left: 0.28em;
+  line-height: 1.6;
+}
+[class^="icon-ochag-why4"]:before, [class*=" icon-ochag-why4"]:before {
+  font-size: 500%;
+  margin-left: 0.25em;
+  line-height: 1.4;
+}
+[class^="icon-ochag-why5"]:before, [class*=" icon-ochag-why5"]:before {
+  font-size: 480%;
+  margin-left: 0.28em;
+  line-height: 1.5;
+}
+[class^="icon-ochag-why6"]:before, [class*=" icon-ochag-why6"]:before {
+  font-size: 680%;
+  margin-left: 0.04em;
+  line-height: 1.1;
+}
