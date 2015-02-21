@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -530,27 +530,27 @@ h2 span.highlight {
 }
 /* line 281, ../sass/screen.sass */
 .cheap__image-1 {
-  background: url('./../img/sprite_img-se040bd3a8b.png') 0 0 no-repeat;
+  background: url('../img/sprite_img-se040bd3a8b.png') 0 0 no-repeat;
 }
 /* line 283, ../sass/screen.sass */
 .cheap__image-2 {
-  background: url('./../img/sprite_img-se040bd3a8b.png') 0 -145px no-repeat;
+  background: url('../img/sprite_img-se040bd3a8b.png') 0 -145px no-repeat;
 }
 /* line 285, ../sass/screen.sass */
 .cheap__image-3 {
-  background: url('./../img/sprite_img-se040bd3a8b.png') 0 -290px no-repeat;
+  background: url('../img/sprite_img-se040bd3a8b.png') 0 -290px no-repeat;
 }
 /* line 287, ../sass/screen.sass */
 .cheap__image-4 {
-  background: url('./../img/sprite_img-se040bd3a8b.png') 0 -435px no-repeat;
+  background: url('../img/sprite_img-se040bd3a8b.png') 0 -435px no-repeat;
 }
 /* line 289, ../sass/screen.sass */
 .cheap__image-5 {
-  background: url('./../img/sprite_img-se040bd3a8b.png') 0 -580px no-repeat;
+  background: url('../img/sprite_img-se040bd3a8b.png') 0 -580px no-repeat;
 }
 /* line 291, ../sass/screen.sass */
 .cheap__image-6 {
-  background: url('./../img/sprite_img-se040bd3a8b.png') 0 -725px no-repeat;
+  background: url('../img/sprite_img-se040bd3a8b.png') 0 -725px no-repeat;
 }
 
 /* line 294, ../sass/screen.sass */
@@ -573,39 +573,40 @@ h2 span.highlight {
   border-radius: 50%;
   width: 148px;
   height: 148px;
+  display: inline-block;
 }
-/* line 309, ../sass/screen.sass */
+/* line 310, ../sass/screen.sass */
 .service__title {
   font-weight: bold;
   font-size: 1.3em;
   min-height: 80px;
   margin-top: 10px;
 }
-/* line 314, ../sass/screen.sass */
+/* line 315, ../sass/screen.sass */
 .service__icon {
   width: 106px;
   height: 106px;
   display: inline-block;
 }
-/* line 318, ../sass/screen.sass */
+/* line 319, ../sass/screen.sass */
 .service__icon-1 {
-  background: url('./../img/sprite_img-se040bd3a8b.png') 0 -870px no-repeat;
+  background: url('../img/sprite_img-se040bd3a8b.png') 0 -870px no-repeat;
   margin-top: 25px;
 }
-/* line 321, ../sass/screen.sass */
+/* line 322, ../sass/screen.sass */
 .service__icon-2 {
-  background: url('./../img/sprite_img-se040bd3a8b.png') 0 -976px no-repeat;
+  background: url('../img/sprite_img-se040bd3a8b.png') 0 -976px no-repeat;
   margin-top: 14px;
 }
-/* line 324, ../sass/screen.sass */
+/* line 325, ../sass/screen.sass */
 .service__icon-3 {
-  background: url('./../img/sprite_img-se040bd3a8b.png') 0 -1082px no-repeat;
+  background: url('../img/sprite_img-se040bd3a8b.png') 0 -1082px no-repeat;
   margin-top: 22px;
   margin-left: 15px;
 }
-/* line 328, ../sass/screen.sass */
+/* line 329, ../sass/screen.sass */
 .service__icon-4 {
-  background: url('./../img/sprite_img-se040bd3a8b.png') 0 -1188px no-repeat;
+  background: url('../img/sprite_img-se040bd3a8b.png') 0 -1188px no-repeat;
   margin-top: 25px;
 }
 
