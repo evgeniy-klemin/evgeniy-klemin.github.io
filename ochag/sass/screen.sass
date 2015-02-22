@@ -12,6 +12,12 @@ $primary-color: #ce2b1d
 $icons: sprite-map('sprite_img/*.png')
 
 
+ul.styled
+  li
+    list-style: initial
+    color: $primary-color
+    margin-left: 14px
+
 +keyframes(animatedBackground)
   from
     background-position: center -1200px
@@ -415,3 +421,63 @@ h2
       line-height: 24px
       padding: 10px 0 10px 64px
       height: 64px
+
+.about
+  h3
+    text-transform: uppercase
+    font-weight: bold
+    font-size: 22px
+    margin-bottom: 20px
+    span
+      color: $primary-color
+  p
+    margin-bottom: 18px
+
+.partners
+  float: right
+  width: 310px
+  background: url('../img/partners_shadow.png') center bottom no-repeat
+  padding: 0 10px 27px 10px
+  margin-left: 30px
+  &__wrap
+    background: #fff
+    border: 10px solid #ebe9e9
+    padding: 20px 24px
+    h3
+      text-transform: uppercase
+      font-weight: bold
+      font-size: 16px
+      margin-bottom: 18px
+    ul
+      margin-bottom: 5px
+    li
+      a
+        font-weight: bold
+      span
+        color: #444
+
+.shops
+  .shop
+    margin-bottom: 30px
+    +box-shadow(4px 4px 20px rgba(0, 0, 0, 0.3))
+    &__wrap
+      padding: 30px 25px 15px 25px
+  .address
+    font-size: 22px  
+    line-height: 1.2
+    margin-bottom: 20px
+    padding-left: 52px
+    background: sprite($icons, 'point', 0, -20px) no-repeat
+    strong
+      display: block
+      font-size: 28px  
+      font-weight: 500
+  .phone
+    font-size: 30px
+    text-align: center
+    font-weight: bold
+    margin-bottom: 10px
+
+  ul
+    text-align: center
+    font-size: 17px
