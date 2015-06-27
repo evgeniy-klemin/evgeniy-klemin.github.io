@@ -55,8 +55,12 @@ ul.styled
     z-index: 100
     position: relative
 
+@media (max-width: 750px)
+  .form-top
+    display: none
+
 .content-wrap
-  width: 1280px
+  //width: 1280px
   margin: 0 auto
   position: relative
   //border: 1px solid #fff
@@ -466,6 +470,14 @@ h2
     +box-shadow(4px 4px 20px rgba(0, 0, 0, 0.3))
     &__wrap
       padding: 30px 25px 15px 25px
+  .shop-title
+    font-size: 22px  
+    font-weight: bold
+    padding-left: 52px
+    text-align: center
+    padding-right: 50px
+    margin-top: -15px
+    margin-bottom: 20px
   .address
     font-size: 22px  
     line-height: 1.2
@@ -597,3 +609,4 @@ h2
   color: #fff
   padding: 25px 0
   text-align: center
+  font-size: 18px
